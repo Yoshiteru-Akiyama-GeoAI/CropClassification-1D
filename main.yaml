@@ -1,0 +1,41 @@
+#
+# Title : Deep Learning Benchmark for Crop Classification Using Sentinel-2 Time-Series Data
+#
+# -------------------
+# DATA PARAMETERS
+# -------------------
+Data:
+  proc_name: Study001
+  # 0:Build Cache Dataset/1:Training/2:Inference
+  proc_type: 0
+  # if proc_type=0 : CSV Dir
+  dir_input_data: ../dataset/TimeSen2Crop
+  # if proc_type=1or2 : PT Dir
+  dir_cache_data: ../cache/cache_TimeSen2Crop
+  # Mesh/Tile Name for Validation
+  tile_name_valid: 33TWN
+  # Mesh/Tile Name for Test
+  tile_name_test: 33UVP
+  band_array: ["B1","B2","B3","B4","B5","B6","B7","B8","B9"]
+  # Encoding - 0:None/1:DOY/2:Sin-Cos
+  enc_mode: 0
+  dir_results: ../results
+# -------------------
+# MODEL PARAMETERS
+# -------------------
+Model:
+  # 0:BiLSTM(RNN-base)/1:TCN(CNN-base)/2:Transformer(Attention-base)
+  model_type: 0
+  # Hidden Layer Dimension
+  hidden_dim: 64
+  # Aggregation - 0:Last Aggregation/1:Attention/2:Masked GAP
+  agg_mode: 0
+  # 0:non-weight/1:balanced/2:normalized
+  class_weights: 2
+  batch_size: 256
+  n_epoch: 50
+  # Patient time for early stopping
+  es_patience: 5
+  learning_rate: 0.0005
+  weight_decay: 0.0001
+
