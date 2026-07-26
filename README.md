@@ -1,3 +1,5 @@
+[🇺🇸 English](README.md) | [🇯🇵 日本語](README_jp.md)
+
 # 🌾 CropClassification-1D Benchmark Study
 
 ## Pixel-based Deep Learning Benchmark for Crop Classification Using Sentinel-2 Time Series Data
