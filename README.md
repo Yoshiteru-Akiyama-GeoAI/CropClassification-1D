@@ -142,7 +142,7 @@ Therefore, all models in this repository are designed to process **variable-leng
 ├── main.yaml
 ├── LICENSE
 ├── requirements.txt
-├── README_en.md
+├── README.md
 └── README_jp.md
 ```
 
@@ -551,12 +551,12 @@ These approaches will be applied to crop and land cover classification and compa
 If you use this repository or the experimental protocol, please consider citing this project together with the original **TimeSen2Crop** dataset publication.
 
 ```bibtex
-@misc{timesen2crop_benchmark,
-  title={TimeSen2Crop-1D Benchmark: Pixel-based Deep Learning Benchmark for Crop Classification Using Sentinel-2 Time Series Data},
+@misc{cropclassification_1d_benchmark,
+  title={CropClassification-1D Benchmark: Pixel-based Deep Learning Benchmark for Crop Classification Using Sentinel-2 Time Series Data},
   author={Yoshiteru Akiyama},
   year={2026},
   publisher={GitHub},
-  howpublished={},
+  howpublished={https://github.com/Yoshiteru-Akiyama-GeoAI/CropClassification-1D.git},
   note={GitHub Repository}
 }
 ```

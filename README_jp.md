@@ -145,7 +145,7 @@ Sample C : (38, C)
 ├── main.yaml
 ├── LICENSE
 ├── requirements.txt
-├── README_en.md
+├── README.md
 └── README_jp.md
 ```
 
@@ -565,12 +565,12 @@ DOYのような単調な季節進行と、Sin/Cosのような周期性を組み�
 本リポジトリまたは実験結果を利用する場合は、以下の引用を推奨する。
 
 ```bibtex
-@misc{timesen2crop1d_benchmark,
-  title={TimeSen2Crop-1D Benchmark: Pixel-based Deep Learning Benchmark for Crop Classification Using Sentinel-2 Time Series Data},
+@misc{cropclassification_1d_benchmark,
+  title={CropClassification-1D Benchmark: Pixel-based Deep Learning Benchmark for Crop Classification Using Sentinel-2 Time Series Data},
   author={Yoshiteru Akiyama},
   year={2026},
   publisher={GitHub},
-  howpublished={},
+  howpublished={https://github.com/Yoshiteru-Akiyama-GeoAI/CropClassification-1D.git},
   note={GitHub Repository}
 }
 ```
