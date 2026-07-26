@@ -1,4 +1,4 @@
-# 🌾 TimeSen2Crop-1D Benchmark Study
+# 🌾 CropClassification-1D Benchmark Study
 
 ## Sentinel-2時系列データを用いた作物分類のための画素ベース深層学習モデル比較
 
