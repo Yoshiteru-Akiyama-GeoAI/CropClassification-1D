@@ -50,7 +50,7 @@ def save_model(model, optimizer, epoch, save_dir, model_name):
     }, save_path)
 
 def load_model(model, save_dir, model_name, device):
-    load_path = os.path.join(save_dir, model_name),
+    load_path = os.path.join(save_dir, model_name)
     checkpoint = torch.load(load_path, map_location=device, weights_only=False)
     model.load_state_dict(checkpoint["model"])
     model.to(device)
