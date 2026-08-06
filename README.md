@@ -18,6 +18,10 @@ Rather than proposing a new model, this repository provides a systematic compari
 
 Unlike previous studies that focus on a single architecture, this repository provides a unified benchmark to systematically evaluate temporal encoding and aggregation strategies across recurrent, convolutional, and attention-based sequence models under identical experimental conditions.
 
+## Note
+>This repository provides reference results of crop classification experiments using publicly available datasets. The datasets were randomly split into training, validation, and test sets, while the actual split files used in the experiments are not publicly released. Therefore, the reported results may vary depending on the execution environment and data split conditions, and should be considered as reference values obtained under the author's experimental setup.
+
+
 ---
 
 # 🎯 Research Objectives
@@ -189,6 +193,10 @@ The execution mode is controlled by the `proc_type` parameter in `main.yaml`.
 | 0           | Build cache dataset |
 | 1           | Train the model     |
 | 2           | Run inference       |
+
+<p align="center">
+<img src="figures/quick_start.png" width="800">
+</p>
 
 The execution command is the same for all modes.
 
