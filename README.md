@@ -2,7 +2,7 @@
 
 # 🌾 CropClassification-1D Benchmark Study
 
-## Pixel-based Deep Learning Benchmark for Crop Classification Using Sentinel-2 Time Series Data
+## Pixel-wise Deep Learning Benchmark for Crop Classification Using Sentinel-2 Time Series Data
 
 This repository provides a benchmarking framework for comparing crop classification models using the **TimeSen2Crop** dataset published by Weikmann et al. TimeSen2Crop is a publicly available benchmark dataset designed for crop classification research based on Sentinel-2 satellite time-series data.
 

@@ -1,6 +1,6 @@
 # 🌾 CropClassification-1D Benchmark Study
 
-## Sentinel-2時系列データを用いた作物分類のための画素ベース深層学習モデル比較
+## Sentinel-2時系列データを用いたピクセル単位作物分類における深層学習ベンチマーク
 
 本リポジトリでは、Weikmann et al. によって公開された **TimeSen2Crop** データセットを用いて、Sentinel-2衛星の時系列データに基づく作物分類モデルの比較ベンチマークを構築する。TimeSen2Cropは、Sentinel-2時系列データを用いた作物分類研究のために構築された公開ベンチマークデータセットである。
 
